@@ -1,16 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { 
-  GraduationCap, 
-  Code, 
-  Bot, 
-  Mic, 
-  Workflow, 
-  Search, 
-  Palette, 
-  Lightbulb,
-  ExternalLink
+import {
+    GraduationCap,
+    Bot,
+    Mic,
+    Workflow,
+    Lightbulb,
+    ExternalLink
 } from 'lucide-react';
+
 import { Button } from '@/components/ui/button';
 
 export function AboutMeSection() {
@@ -20,16 +18,6 @@ export function AboutMeSection() {
       opacity: 1, 
       y: 0,
       transition: { duration: 0.6 }
-    }
-  };
-
-  const staggerContainer = {
-    hidden: { opacity: 0 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.2
-      }
     }
   };
 

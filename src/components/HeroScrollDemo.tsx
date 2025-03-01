@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { ContainerScroll } from "@/components/ui/container-scroll-animation";
-import { Brush, Code, Palette } from "lucide-react";
+import { Brush, Code } from "lucide-react";
 
 export function HeroScrollDemo() {
   return (
